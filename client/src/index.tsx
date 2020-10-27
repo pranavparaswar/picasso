@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Index from './views/index';
+
 const App = () => {
     return (
-        <div>
-            Welcome to Picasso
-        </div>
+        <Index />
     )
 }
 
