@@ -1,10 +1,13 @@
 import React from 'react';
+import Page from '../components/Page';
 
 const Index = () => {
     return (
-        <div>
-            Welcome to Picasso
-        </div>
+        <Page>
+            <div>
+                Welcome to Picasso
+            </div>
+        </Page>
     )
 }
 
