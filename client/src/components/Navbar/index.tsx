@@ -43,7 +43,7 @@ const Navbar = () => {
                                     Sign Up
                                 </DropdownItem>
                                 <DropdownItem href="/signin">
-                                    Sign In
+                                    Sign In 
                                 </DropdownItem>
                                 {/* <DropdownItem divider />
                                 <DropdownItem>
