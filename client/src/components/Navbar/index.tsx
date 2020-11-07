@@ -18,7 +18,7 @@ import {
 import NavContainer from './NavContainer';
 import Span from './Span';
 
-const Example = () => {
+const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
@@ -43,7 +43,7 @@ const Example = () => {
                                     Sign Up
                                 </DropdownItem>
                                 <DropdownItem href="/signin">
-                                    Sign In
+                                    Sign In 
                                 </DropdownItem>
                                 {/* <DropdownItem divider />
                                 <DropdownItem>
@@ -59,6 +59,4 @@ const Example = () => {
     );
 }
 
-export default Example;
-
-// export default Navbar;
+export default Navbar;
